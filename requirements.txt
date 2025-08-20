@@ -1,0 +1,5 @@
+streamlit
+joblib
+numpy
+scikit-learn
+https://github.com/aswintechguy/Deep-Learning-Projects/blob/main/Abstractive%20Text%20Summarization%20Transformer%20Model%20-%20NLP/Abstractive_Text_Summarization_Transformer_Model.ipynb
