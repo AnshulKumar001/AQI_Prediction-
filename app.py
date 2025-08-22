@@ -1,14 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 import streamlit as st
 import joblib
 import numpy as np
+import os
 
-model = joblib.load(r"C:\Users\Administrator\Downloads\model.pkl")
+# Load model (relative path so it works on Streamlit Cloud)
+model = joblib.load(os.path.join(os.path.dirname(__file__), "model.pkl"))
 
 st.title("AQI Prediction App")
 
@@ -26,4 +22,4 @@ ozone = st.number_input("Ozone", value=43.19)
 if st.button("Predict"):
     input_data = np.array([[month, year, holidays_count, days, pm25, pm10, no2, so2, co, ozone]])
     prediction = model.predict(input_data)
-    st.success(f"Predicted AQI: {prediction[0]:.2f}")
+    st.success(f"Predicted AQI: {prediction[0]}")
