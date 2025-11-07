@@ -119,4 +119,4 @@ To deploy the app on Streamlit Cloud, follow these steps:
 - Experiment with deep learning (LSTM for time-series AQI prediction).
    
 
-![dia](https://as2.ftcdn.net/v2/jpg/17/61/62/25/1000_F_1761622587_d52EHIfru4PdnsPfzcjRrDQnMjP0EYDf.jpg)
+![dia](https://w.ndtvimg.com/sites/3/2024/01/09155352/660-1.jpg)
