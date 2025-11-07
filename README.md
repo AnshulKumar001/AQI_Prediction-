@@ -8,7 +8,7 @@ This project walks through the **complete ML pipeline** — from data preprocess
 ## 🚀 Project Overview  
 
 The AQI Prediction System analyzes key pollutant levels and environmental factors to estimate overall air quality.  
-Users can input pollutant values through a simple web form, and the trained model instantly predicts the **AQI category** (Good, Moderate, Poor, etc.).  
+Users can input pollutant values through a simple web form, and the trained model instantly predicts the **AQI category** (Good, Moderate, Danger, etc.).  
 
 ---
 
@@ -51,7 +51,7 @@ Users can input pollutant values through a simple web form, and the trained mode
 | O₃ | Ozone level |
 
 **Output:**  
-> AQI Level → Good / Satisfactory / Moderate / Poor / Very Poor / Severe  
+> AQI Level → Numerical Value (Good / Moderate / Danger)  
 
 ---
 
