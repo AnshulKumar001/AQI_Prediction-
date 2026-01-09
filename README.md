@@ -1,4 +1,4 @@
-# 🌫️ Air Quality Index (AQI) Prediction System 
+# 🌫️ Air Quality Index (AQI) Using Delhi Data Prediction System 
 
 An end-to-end **Machine Learning project** that predicts the **Air Quality Index (AQI)** category using real-world pollutant data.  
 This project walks through the **complete ML pipeline** — from data preprocessing and model building to web app deployment using **Streamlit Cloud**.  
